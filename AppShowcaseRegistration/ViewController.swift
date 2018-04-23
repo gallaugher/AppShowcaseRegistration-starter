@@ -14,6 +14,7 @@ import FirebaseGoogleAuthUI
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var authUI: FUIAuth!
+    var students: Students!
     
     override func viewDidLoad() {
         super.viewDidLoad()
